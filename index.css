@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.header{
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(247,238,220, .85);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(0,0,0,.05);
+}

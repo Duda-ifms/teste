@@ -25,3 +25,19 @@ body{
   color: var(--muted);
   max-width: 60ch;
 }
+
+.btn{
+  --btn-bg: var(--brand-yellow);
+  --btn-ink: #123;
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: .6rem;
+  padding: .9rem 1.2rem;
+  border-radius: calc(var(--radius) + 10px);
+  background: var(--btn-bg);
+  color: var(--btn-ink);
+  font-weight: 800; text-decoration: none; letter-spacing: .4px;
+  box-shadow: var(--shadow-md);
+  border: 0; cursor: pointer;
+  transition: transform .08s ease, box-shadow .2s ease, filter .2s ease;
+}
+
